@@ -19,6 +19,8 @@
 + Apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah *__git commit__*.  
 + Config Global Repository
     
+![Global Config](https://user-images.githubusercontent.com/56189248/66385674-188d2380-e9eb-11e9-8981-8978bbe9b288.png)  
+  
 
 
 
