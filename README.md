@@ -1,12 +1,12 @@
 #Latihan 1
 
 
-**== TUTORIAL CARA MENGGUNAKAN GIT == **
+**== TUTORIAL CARA MENGGUNAKAN GIT ==**
 
-**A. Download dan Install Git**;
-     Download Git, buka website resminya Git (git-scm.com).;
-buka aplikasi git dan jalankan perintah "git config --global user.nama "nama anda" lalu enter dan tulis "git config --global user.email "email anda"
-menggunakan git
+**A. Download dan Install Git**  
+        Download Git, buka website resminya Git (git-scm.com).  
+     Buka aplikasi git dan jalankan perintah "git config --global user.nama "nama anda" lalu enter dan tulis "git config --global user.email "email anda"
+menggunakan git.
 
 buka github.com
 tambahkn repository baru untuk mengisi ada beberapa hal yang harus diperhatikan : a. repository name : nama repository (latihan1) b. description : deskripsi repository (biasanya berupa siapa saja yang terlibat) c. public/private : kondisi repository mau di publikasikan atau pribadi d. initiallize the repository with README : ini adalah isi dokumentasi pada project yang dikerjakan, saya sarankan tidak usah dicentang. setelah diisi sesuai keinginan, klik tombol "create repository" maka tampilan selanjutnya adalah repository yang sudah dibuat, tahap selanjutnya adalah upload project ke repository online.
