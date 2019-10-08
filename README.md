@@ -38,6 +38,6 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Jalankan perintah **git init**, untuk membuat repository local pada directory aktif yang sudah kita pilih tadi. Jadi segala perubahan pada directory tersebut akan selalu terpantau oleh git.  
   
 ![Ketik Git Init](https://user-images.githubusercontent.com/56189248/66399365-ae37ab80-ea09-11e9-8fd5-1ac6ac5f0ee6.png)  
-+ Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama **.git**  
++ Repository baru berhasil di inisialisasi, dengan terbentuknya satu directory hidden dengan nama **.git**  
   
 ![Directory.git](https://user-images.githubusercontent.com/56189248/66400022-e7245000-ea0a-11e9-9e19-24f22f97cd22.png)  
