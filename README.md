@@ -5,8 +5,10 @@
 
 **A. Download dan Install Git**  
 + Download Git, buka website resminya Git (git-scm.com).  
-+ Kemudian unduh Git sesuai dengan arsitektur komputer kita. 
-Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit, unduh yang 32bit  
++ Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit, unduh yang 32bit.  
+  
+![Download Git-image](https://user-images.githubusercontent.com/56189248/66376538-1a9ab680-e9da-11e9-8342-df8d66fb971e.png)  
+  
 + Install Git yang telah terunduh!. Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka **CMD** atau **PowerShell**, kemudian ketik perintah "__git --version__".
   
 **A. Download dan Install Git**  
