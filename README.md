@@ -1,12 +1,10 @@
 #Latihan 1
 
 
-== TUTORIAL CARA MENGGUNAKAN GIT == 
+**== TUTORIAL CARA MENGGUNAKAN GIT == **
 
-latihan1 #latihan1 cara penggunaan git
-
-**A. Download dan Install Git**
-   Download Git, buka website resminya Git (git-scm.com). 
+**A. Download dan Install Git**;
+     Download Git, buka website resminya Git (git-scm.com).;
 buka aplikasi git dan jalankan perintah "git config --global user.nama "nama anda" lalu enter dan tulis "git config --global user.email "email anda"
 menggunakan git
 
