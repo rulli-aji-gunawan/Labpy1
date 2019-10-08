@@ -36,5 +36,6 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
   
 + Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah **cd latihan1** (change directory ke latihan1) seperti pada gambar di atas.
 + Directory aktif menjadi: **d:\labs_pemrograman1\latihan1** .
-
-
++ Jalankan perintah **git init**, untuk membuat repository local pada directory aktif yang sudah kita pilih tadi. Jadi segala perubahan pada directory tersebut akan selalu terpantau oleh git.  
+  
+![Ketik Git Init](https://user-images.githubusercontent.com/56189248/66399365-ae37ab80-ea09-11e9-8fd5-1ac6ac5f0ee6.png)  
