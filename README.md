@@ -23,11 +23,18 @@
   
   
 **C. Perintah Dasar Pada Git**  
-  	Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah ini berikut fungsinya :  
+_Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah ini berikut fungsinya :_  
   
 ![Perintah Dasar Git](https://user-images.githubusercontent.com/56189248/66391500-84758900-e9f7-11e9-813a-d110c2711fa7.png)  
   
-
-
+**B. Membuat Repository Local**  
++ Buka directory aktif yang akan kita jadikan tempat penyimpanan file latihan atau project kita *dengan menggunakan Windows Explorer*. Misal, kita buka di **d:\labs_pemrograman1**.  
++ Klik kanan pada directory aktif tersebut, klik **Git Bash** pada menu yang muncul, sehingga akan muncul *git bash command*.  
++ Buatlah directory praktikum project pertama dengan nama **latihan1**, caranya adalah dengan mengetik perintah berikut pada git bash commad.  
+  
+![Membuat Repository Local](https://user-images.githubusercontent.com/56189248/66397654-7844f800-ea06-11e9-85b4-dfe938cbb179.png)  
+  
++ Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah **cd latihan1** (change directory ke latihan1) seperti pada gambar di atas.
++ Directory aktif menjadi: **d:\labs_pemrograman1\latihan1** .
 
 
