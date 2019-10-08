@@ -23,7 +23,7 @@
   
   
 **C. Perintah Dasar Pada Git**  
-	Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah ini berikut fungsinya :  
+	 Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah ini berikut fungsinya :  
   
 ![Perintah Dasar Git](https://user-images.githubusercontent.com/56189248/66386648-c220e480-e9ec-11e9-9a67-e42f4b961057.png)  
   
