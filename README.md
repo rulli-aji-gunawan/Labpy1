@@ -21,6 +21,12 @@
     
 ![Global Config](https://user-images.githubusercontent.com/56189248/66385674-188d2380-e9eb-11e9-8981-8978bbe9b288.png)  
   
+  
+**C. Perintah Dasar Pada Git**  
+	Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah ini berikut fungsinya :  
+  
+![Perintah Dasar Git](https://user-images.githubusercontent.com/56189248/66386648-c220e480-e9ec-11e9-9a67-e42f4b961057.png)  
+  
 
 
 
