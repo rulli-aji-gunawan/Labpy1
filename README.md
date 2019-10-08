@@ -13,11 +13,13 @@
   
 ![Check Git Version-cmd](https://user-images.githubusercontent.com/56189248/66382918-3d32cc80-e9e6-11e9-83a2-734fd4c66829.png)
   
-**A. Download dan Install Git**  
-1. Download Git, buka website resminya Git (git-scm.com).  
-2. Kemudian unduh Git sesuai dengan arsitektur komputer kita. 
-Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit
+**B. Menambahkan Global Config**  
++ Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi *__user.name__* dan *__user.email__*.  
++ Konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.  
++ Apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah *__git commit__*.  
++ Config Global Repository
+    
 
 
 
-![Contoh memasukkan image](https://user-images.githubusercontent.com/56189248/66370074-09957980-e9c9-11e9-92b1-e554bc2d4704.png)
+
