@@ -41,3 +41,9 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Repository baru berhasil di inisialisasi, dengan terbentuknya satu directory hidden dengan nama **.git**  
   
 ![Directory.git](https://user-images.githubusercontent.com/56189248/66400022-e7245000-ea0a-11e9-9e19-24f22f97cd22.png)  
+  
++ Jadi, semua perubahan pada directory yang sudah di-repository tersebut atau bisa disebut juga dengan *working directory* akan selalu terekam dan sisimpan oleh git.  
+  
+**D. Menambah File Baru Pada Repository**  
++ Dalam repository (directory aktif) yang sudah kita buat tadi, kita bisa menambahkan file yang akan kita olah. Salah satu cara membuat file adalah bisa menggunakan text editor, lalu file tersebut disimpan pada repository.
++ Sebagai contoh dan latihan, kita akan mencoba membuat text file yang diberi nama README.md  , cara membuatnya adalah dengan memberikan perintah pada git seperti berikut :  
