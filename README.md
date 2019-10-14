@@ -51,3 +51,4 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
   
 + Dan file **README.md** pun berhasil dibuat.  
 + Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
++ Untuk menyimpan perubahan yang ingin kita rekam dan ingin diberikan keterangan ke dalam database repository local, maka gunakanlah perintah: **$ git commit -m "komentar /catatan commit"**. Contoh : **$ git commit -m "file dalam repository pertama saya"** .
