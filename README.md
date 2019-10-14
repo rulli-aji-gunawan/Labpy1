@@ -54,10 +54,43 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
 + Untuk menyimpan perubahan yang ingin kita rekam dan ingin diberikan keterangan ke dalam database repository local, maka gunakanlah perintah: **$ git commit -m "komentar /catatan commit"**. Contoh : **$ git commit -m "file dalam repository pertama saya"** . Dan perubahan pun berhasil disimpan.  
   
-**E.Membuat Repository Server**  
+**E. Membuat Repository Server**  
 + Sesuai dengan istilahnya, maka kali ini kita akan belajar cara membuat repository di server (di luar ruang penyimpanan komputer yang kita gunakan).  
 + Sever repository yang akan kita gunakan adalah **http://github.com**  
-+ Pertama kita harus membuat akun terlebih dahulu.  
++ Pertama kita harus membuat akun terlebih dahulu dengan email dan password yang akan kita gunakan.  
 + Pada halaman utama github.com, klik tombol *Start a project* atau  
 + Ddari menu (icon +) klik *New Repository*  
-![Membuat akun di github1](https://user-images.githubusercontent.com/56189248/66759797-1b948200-eecb-11e9-9db8-c3585aacf7dd.png)   ![Membuat akun di github2](https://user-images.githubusercontent.com/56189248/66759251-1aaf2080-eeca-11e9-9e2d-7e43c7623bde.png)  
+![Membuat akun di github1](https://user-images.githubusercontent.com/56189248/66759797-1b948200-eecb-11e9-9db8-c3585aacf7dd.png)       ![Membuat akun di github2](https://user-images.githubusercontent.com/56189248/66759251-1aaf2080-eeca-11e9-9e2d-7e43c7623bde.png)  
++ Isi nama repository-nya, misalkan kita beri nama : **Labpy1**  
++ Lalu klik tombol *Create Repository*.
+![Membuat nama repo di github](https://user-images.githubusercontent.com/56189248/66760354-226fc480-eecc-11e9-894a-c0b0e9321aab.png)  
+  
+**F. Menambahkan Reomote Repository**  
++ Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user atau bisa diakses dari mana saja.  
++ Untuk menambahkan remote repository server, gunakan perintah **$ git remote add origin [*url repository di github*]**  
+![Remote repo](https://user-images.githubusercontent.com/56189248/66760700-d2ddc880-eecc-11e9-8f2a-a0397bbe756d.png)  
+  
+**G. Push (mengirim perubahan ke server)**  
++ Untuk mengirim perubahan pada local repository yang sudah kita *commit* ke server, gunakan perintah git push seperti berikut,  
+![Git Push](https://user-images.githubusercontent.com/56189248/66761232-c7d76800-eecd-11e9-91f8-3a6835996273.png)  
++ Saat pertama kali menggunakan perintah ini, maka kita akan diminta memasukkan username dan password pada akun github.com.  
++ Masukkan username dan password sesuai dengan yang kita daftarkan saat membuat akun di github.com seperti yang sudah dijelaskan sebelumnya.  
++ Buka laman github.com, arahkan pada repositori-nya, maka perubahan akan terlihat pada laman tersebut.  
+![hasil git push](https://user-images.githubusercontent.com/56189248/66761717-bb9fda80-eece-11e9-89c8-cc1ea78ab65b.png)  
+  
+**H. Clone Repository**  
++ Clone repository, pada dasarnya adalah **_meng-copy_** repository server dan secara otomatis membuat satu directory sesuai dengan nama repository-nya (_working directory_).  
++ Untuk melakukan cloning, gunakan perintah git **clone [*url repository yang akan kita copy di github*]**  
+  
+**I. Kegunaan File README.md**  
++ Apabila kita menggunakan github, untuk memberikan penjelasan awal pada project yang kita buat, maka dapat menggunakan sebuah file yang bernama README.md  
++ Pada file tersebut kita dapat membuat dokumentasi awal dari setiap project yang kita buat untuk memberikan penjelasan atau sekedar cara penggunaan dari aplikasi yang kita kembangkan.  
++ Penulisan file README.md berbasis teks, dan untuk pemformatannya menggunakan Markdown format.  
+Untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown pada url berikut: https://guides.github.com/features/mastering-markdown/
+  
+  
+
+
+Terima kasih  
+  
+**_Disclaimer : Ini hanya file latihan pribadi saya, jika ada kekurangan dan kesalahan, itu semata-mata karena keterbatasan ilmu dari saya_**
