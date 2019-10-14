@@ -47,3 +47,7 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 **D. Menambah File Baru Pada Repository**  
 + Dalam repository (directory aktif) yang sudah kita buat tadi, kita bisa menambahkan file yang akan kita olah. Salah satu cara membuat file adalah bisa menggunakan text editor, lalu file tersebut disimpan pada repository.
 + Sebagai contoh dan latihan, kita akan mencoba membuat text file yang diberi nama README.md  , cara membuatnya adalah dengan memberikan perintah pada git seperti berikut :  
+**$ echo "#Latihan 1" >> README.md 
+  
++ Dan file **README.md** pun berhasil dibuat.  
++ Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
