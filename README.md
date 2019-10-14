@@ -34,11 +34,13 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Buatlah directory praktikum project pertama dengan nama **latihan1**, caranya adalah dengan mengetik perintah berikut pada git bash commad.  
   
 ![Membuat Repository Local](https://user-images.githubusercontent.com/56189248/66398630-52205780-ea08-11e9-9055-3098fc83f554.png)  
+  
 + Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah **cd latihan1** (change directory ke latihan1) seperti pada gambar di atas.
 + Directory aktif menjadi: **d:\labs_pemrograman1\latihan1** .
 + Jalankan perintah **git init**, untuk membuat repository local pada directory aktif yang sudah kita pilih tadi. Jadi segala perubahan pada directory tersebut akan selalu terpantau oleh git.  
   
 ![Ketik Git Init](https://user-images.githubusercontent.com/56189248/66399365-ae37ab80-ea09-11e9-8fd5-1ac6ac5f0ee6.png)  
+  
 + Repository baru berhasil di inisialisasi, dengan terbentuknya satu directory hidden dengan nama **.git**  
   
 ![Directory.git](https://user-images.githubusercontent.com/56189248/66400022-e7245000-ea0a-11e9-9e19-24f22f97cd22.png)  
@@ -48,7 +50,7 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 **D. Menambah File Baru Pada Repository**  
 + Dalam repository (directory aktif) yang sudah kita buat tadi, kita bisa menambahkan file yang akan kita olah. Salah satu cara membuat file adalah bisa menggunakan text editor, lalu file tersebut disimpan pada repository.
 + Sebagai contoh dan latihan, kita akan mencoba membuat text file yang diberi nama README.md  , cara membuatnya adalah dengan memberikan perintah pada git seperti berikut :  
-**$ echo "#Latihan 1" >> README.md 
+**$ echo "#Latihan 1" >> README.md**  
   
 + Dan file **README.md** pun berhasil dibuat.  
 + Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
@@ -59,23 +61,29 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Sever repository yang akan kita gunakan adalah **http://github.com**  
 + Pertama kita harus membuat akun terlebih dahulu dengan email dan password yang akan kita gunakan.  
 + Pada halaman utama github.com, klik tombol *Start a project* atau  
-+ Ddari menu (icon +) klik *New Repository*  
++ Dari menu (icon +) klik *New Repository*  
+  
 ![Membuat akun di github1](https://user-images.githubusercontent.com/56189248/66759797-1b948200-eecb-11e9-9db8-c3585aacf7dd.png)       ![Membuat akun di github2](https://user-images.githubusercontent.com/56189248/66759251-1aaf2080-eeca-11e9-9e2d-7e43c7623bde.png)  
+  
 + Isi nama repository-nya, misalkan kita beri nama : **Labpy1**  
-+ Lalu klik tombol *Create Repository*.
++ Lalu klik tombol *Create Repository*.  
+  
 ![Membuat nama repo di github](https://user-images.githubusercontent.com/56189248/66760354-226fc480-eecc-11e9-894a-c0b0e9321aab.png)  
   
 **F. Menambahkan Reomote Repository**  
 + Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user atau bisa diakses dari mana saja.  
 + Untuk menambahkan remote repository server, gunakan perintah **$ git remote add origin [*url repository di github*]**  
+  
 ![Remote repo](https://user-images.githubusercontent.com/56189248/66760700-d2ddc880-eecc-11e9-8f2a-a0397bbe756d.png)  
   
 **G. Push (mengirim perubahan ke server)**  
 + Untuk mengirim perubahan pada local repository yang sudah kita *commit* ke server, gunakan perintah git push seperti berikut,  
+  
 ![Git Push](https://user-images.githubusercontent.com/56189248/66761232-c7d76800-eecd-11e9-91f8-3a6835996273.png)  
 + Saat pertama kali menggunakan perintah ini, maka kita akan diminta memasukkan username dan password pada akun github.com.  
 + Masukkan username dan password sesuai dengan yang kita daftarkan saat membuat akun di github.com seperti yang sudah dijelaskan sebelumnya.  
 + Buka laman github.com, arahkan pada repositori-nya, maka perubahan akan terlihat pada laman tersebut.  
+  
 ![hasil git push](https://user-images.githubusercontent.com/56189248/66761717-bb9fda80-eece-11e9-89c8-cc1ea78ab65b.png)  
   
 **H. Clone Repository**  
