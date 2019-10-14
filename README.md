@@ -60,4 +60,4 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Pertama kita harus membuat akun terlebih dahulu.  
 + Pada halaman utama github.com, klik tombol *Start a project* atau  
 + Ddari menu (icon +) klik *New Repository*  
-![Membuat akun di github1](https://user-images.githubusercontent.com/56189248/66759205-03703300-eeca-11e9-9630-15404794b476.png)   ![Membuat akun di github2](https://user-images.githubusercontent.com/56189248/66759251-1aaf2080-eeca-11e9-9e2d-7e43c7623bde.png)  
+![Membuat akun di github1](https://user-images.githubusercontent.com/56189248/66759797-1b948200-eecb-11e9-9db8-c3585aacf7dd.png)   ![Membuat akun di github2](https://user-images.githubusercontent.com/56189248/66759251-1aaf2080-eeca-11e9-9e2d-7e43c7623bde.png)  
