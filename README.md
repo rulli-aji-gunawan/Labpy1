@@ -28,6 +28,7 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 ![Perintah Dasar Git](https://user-images.githubusercontent.com/56189248/66391500-84758900-e9f7-11e9-813a-d110c2711fa7.png)  
   
 **B. Membuat Repository Local**  
++ Sesuai dengan istilahnya, maka kita akan belajar cara membuat repository local, yaitu repository yang akan disimpan di ruang penyimpanan komputer kita.
 + Buka directory aktif yang akan kita jadikan tempat penyimpanan file latihan atau project kita *dengan menggunakan Windows Explorer*. Misal, kita buka di **d:\labs_pemrograman1**.  
 + Klik kanan pada directory aktif tersebut, klik **Git Bash** pada menu yang muncul, sehingga akan muncul *git bash command*.  
 + Buatlah directory praktikum project pertama dengan nama **latihan1**, caranya adalah dengan mengetik perintah berikut pada git bash commad.  
@@ -51,4 +52,12 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
   
 + Dan file **README.md** pun berhasil dibuat.  
 + Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
-+ Untuk menyimpan perubahan yang ingin kita rekam dan ingin diberikan keterangan ke dalam database repository local, maka gunakanlah perintah: **$ git commit -m "komentar /catatan commit"**. Contoh : **$ git commit -m "file dalam repository pertama saya"** .
++ Untuk menyimpan perubahan yang ingin kita rekam dan ingin diberikan keterangan ke dalam database repository local, maka gunakanlah perintah: **$ git commit -m "komentar /catatan commit"**. Contoh : **$ git commit -m "file dalam repository pertama saya"** . Dan perubahan pun berhasil disimpan.  
+  
+**E.Membuat Repository Server**  
++ Sesuai dengan istilahnya, maka kali ini kita akan belajar cara membuat repository di server (di luar ruang penyimpanan komputer yang kita gunakan).  
++ Sever repository yang akan kita gunakan adalah **http://github.com**  
++ Pertama kita harus membuat akun terlebih dahulu.  
++ Pada halaman utama github.com, klik tombol *Start a project* atau  
++ Ddari menu (icon +) klik *New Repository*  
+![Membuat akun di github1](https://user-images.githubusercontent.com/56189248/66759205-03703300-eeca-11e9-9630-15404794b476.png)   ![Membuat akun di github2](https://user-images.githubusercontent.com/56189248/66759251-1aaf2080-eeca-11e9-9e2d-7e43c7623bde.png)  
