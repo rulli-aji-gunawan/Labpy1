@@ -55,8 +55,16 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 ![Perintah menambah file baru pada repository](https://user-images.githubusercontent.com/56189248/67097328-134a8880-f1e4-11e9-854f-0c1a262d4ca5.png)
   
 + Dan file **README.md** pun berhasil dibuat.  
+  
+![File README.md](https://user-images.githubusercontent.com/56189248/67099266-d54f6380-f1e7-11e9-8b09-d79493af675d.png)  
+   
 + Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
+  
+![Add README.md ke Repo](https://user-images.githubusercontent.com/56189248/67099528-527ad880-f1e8-11e9-9556-b0470a30c1be.png)  
+  
 + Untuk menyimpan perubahan yang ingin kita rekam dan ingin diberikan keterangan ke dalam database repository local, maka gunakanlah perintah: **$ git commit -m "komentar /catatan commit"**. Contoh : **$ git commit -m "file dalam repository pertama saya"** . Dan perubahan pun berhasil disimpan.  
+  
+![Git commit](https://user-images.githubusercontent.com/56189248/67099726-ab4a7100-f1e8-11e9-955f-50a0e1e3f20e.png)  
   
 **E. Membuat Repository Server**  
 + Sesuai dengan istilahnya, maka kali ini kita akan belajar cara membuat repository di server (di luar ruang penyimpanan komputer yang kita gunakan).  
