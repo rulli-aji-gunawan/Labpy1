@@ -52,6 +52,8 @@ _Pada Git, ada beberapa perintah dasar yang sering digunakan seperti di bawah in
 + Sebagai contoh dan latihan, kita akan mencoba membuat text file yang diberi nama README.md  , cara membuatnya adalah dengan memberikan perintah pada git seperti berikut :  
 **$ echo "#Latihan 1" >> README.md**  
   
+![Perintah menambah file baru pada repository](https://user-images.githubusercontent.com/56189248/67097328-134a8880-f1e4-11e9-854f-0c1a262d4ca5.png)
+  
 + Dan file **README.md** pun berhasil dibuat.  
 + Untuk menambahkan file tersebut kedalam repository supaya bisa terdeteksi oleh Git, gunakan perintah **$ git add README.md**  .  
 + Untuk menyimpan perubahan yang ingin kita rekam dan ingin diberikan keterangan ke dalam database repository local, maka gunakanlah perintah: **$ git commit -m "komentar /catatan commit"**. Contoh : **$ git commit -m "file dalam repository pertama saya"** . Dan perubahan pun berhasil disimpan.  
